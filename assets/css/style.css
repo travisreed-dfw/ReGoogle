@@ -155,3 +155,31 @@ BEGIN FOOTER STUFF
 /* ***************
 END FOOTER STUFF
 *************** */
+
+/* ************
+BEGIN MEDIA STUFF
+************ */
+
+@media only screen and (max-width: 1024px) {
+  .centerPage {
+    width: 80%;
+  }
+
+  .MOTD img {
+    display: none;
+  }
+
+  button {
+    width: 100%;
+    font-size: 0.75em;
+  }
+  .logo img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+  }
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
