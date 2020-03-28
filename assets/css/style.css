@@ -163,6 +163,7 @@ BEGIN MEDIA STUFF
 @media only screen and (max-width: 1024px) {
   .centerPage {
     width: 80%;
+    padding-top: 2em;
   }
 
   .MOTD img {
