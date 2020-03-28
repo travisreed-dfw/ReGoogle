@@ -1,0 +1,158 @@
+/* ***********
+BEGIN NAV STUFF
+*********** */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ol {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0px 10px 0px 5px;
+  color: black;
+  opacity: 0.75;
+}
+
+ol a {
+  color: black;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+ol a:hover {
+  color: black;
+  opacity: 0.75;
+  text-decoration: underline;
+}
+
+li {
+  padding: 0px 10px 0px 5px;
+}
+
+/* ***********
+END NAV STUFF
+*********** */
+
+/* ***********
+BEGIN BODY STUFF
+*********** */
+
+.outerDiv {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.centerPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  max-width: 30%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+.searchBox {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.searchBox input {
+  border-radius: 25px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  display: block;
+  padding: 20px;
+  width: 60%;
+  height: 15px;
+  box-sizing: border-box;
+}
+
+.searchBox img {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+}
+
+.searchBox input:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+  height: 2em;
+}
+
+button {
+  width: 15%;
+  height: 100%;
+  border-radius: 5px;
+  margin: 0.5em;
+  background: #f2f2f2;
+}
+
+button:hover {
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+}
+
+.MOTD {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.MOTD img {
+  max-width: 8%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+.MOTD a {
+  font-size: 13px;
+  text-decoration: none;
+  font-size: small;
+  text-align: center;
+  padding-left: 0.25em;
+}
+
+.MOTD a:hover {
+  text-decoration: underline;
+}
+
+/* ************
+END BODY STUFF
+************ */
+
+/* ***************
+BEGIN FOOTER STUFF
+*************** */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+}
+
+/* ***************
+END FOOTER STUFF
+*************** */
