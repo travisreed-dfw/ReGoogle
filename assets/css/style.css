@@ -179,8 +179,29 @@ BEGIN MEDIA STUFF
     height: auto;
     width: auto\9; /* ie8 */
   }
+}
+
+@media only screen and (max-width: 515px) {
   .footer {
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 315px) {
+  .lucky {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .MOTD {
+    display: none;
   }
 }
