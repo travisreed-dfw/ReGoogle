@@ -1,3 +1,9 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* ***********
 BEGIN NAV STUFF
 *********** */
@@ -77,15 +83,8 @@ BEGIN BODY STUFF
   border: 2px solid rgba(0, 0, 0, 0.1);
   display: block;
   padding: 20px;
-  width: 60%;
-  height: 15px;
+  width: 100%;
   box-sizing: border-box;
-}
-
-.searchBox img {
-  position: absolute;
-  top: 2px;
-  right: 5px;
 }
 
 .searchBox input:hover {
@@ -99,7 +98,7 @@ BEGIN BODY STUFF
 }
 
 button {
-  width: 15%;
+  width: 25%;
   height: 100%;
   border-radius: 5px;
   margin: 0.5em;
